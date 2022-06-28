@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "crec.dev.betterstatsscreen.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ItemRowMixin",
+    "ItemStatisticListMixin",
+    "StatsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "better-stats-screen",
+  "version": "${version}",
+  "name": "Better Stats Screen",
+  "description": "A mod to improve the stats screen",
+  "authors": [
+    "Crec0"
+  ],
+  "accessWidener": "StatsScreenWidener.accesswidener",
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/better-stats-screen/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "better-stats-screen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": "*"
+  }
+}
