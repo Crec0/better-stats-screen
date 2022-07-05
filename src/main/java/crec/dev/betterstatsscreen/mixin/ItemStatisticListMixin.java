@@ -32,11 +32,11 @@ public class ItemStatisticListMixin {
 
 	@ModifyConstant(method = "getRowWidth", constant = @Constant(intValue = 375))
 	public int modifyWidth(int constant) {
-		return 480;
+		return 410;
 	}
 
 	@ModifyConstant(method = "getScrollbarPosition", constant = @Constant(intValue = 140))
 	public int modifyScrollPosition(int constant) {
-		return 245;
+		return 212;
 	}
 }

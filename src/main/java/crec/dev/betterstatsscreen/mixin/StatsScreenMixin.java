@@ -14,6 +14,6 @@ public class StatsScreenMixin {
 		cancellable = true
 	)
 	private void modifyInitConstant(int i, CallbackInfoReturnable<Integer> cir) {
-		cir.setReturnValue(100 + 75 * i);
+		cir.setReturnValue(86 + 68 * i);
 	}
 }
